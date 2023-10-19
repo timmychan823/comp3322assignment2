@@ -1,0 +1,512 @@
+
+
+.Block{
+    
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+ 
+ 
+
+ 
+
+}
+
+sup{
+    font-size: 25px;
+}
+sub{
+    font-size: 25px;
+}
+
+
+#HK{
+    
+
+    width: 40vw;
+    min-width:450px;
+
+    min-height: 250px;
+    height: 30vh;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+ 
+    position:relative;
+    
+
+   
+    background-size: cover;
+    justify-content: center;
+    
+}
+
+
+#HKHumidity{
+    /*background-color: green;*/
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+    position: relative;
+    margin-left: 20px;
+
+    margin-right: 20px;
+    
+}
+
+#HKHumidity img{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+#HKTemperature p{
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#HKHumidity p{
+    padding-right: 5px;
+    padding-top: 5px;
+}
+#HKRainfall p{
+    padding-right: 5px;
+    padding-top: 5px;
+}
+#HKUVLevel p{
+    padding-right: 9px;
+    padding-top: 5px;
+}
+
+
+
+
+#HKRainfall{
+    /*background-color: green;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    align-content: flex-start;
+
+    position: relative;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+#HKRainfall img{
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+
+#HKUVLevel{
+    /*background-color: green;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    align-content: flex-start;
+
+
+    position: relative;
+    
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+
+}
+
+#HKUVLevel img{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+
+}
+
+
+#HKTemperature{
+    /*background-color: green;*/
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    align-content: flex-start;
+
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+}
+
+
+#Warning{
+    background-color: crimson;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    border-radius: 0 10px 0 0 ;
+   
+    
+ 
+}
+
+#LastUpdate{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+   
+
+  
+
+
+
+}
+
+#MyData{
+
+ 
+    background-color: palegreen;
+
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+ 
+    position:relative;
+  
+    width: 40vw;
+    min-width:450px;
+
+    min-height: 250px;
+    height: 30vh;
+
+}
+
+
+
+#LocationTemperature{
+   
+    height: 240px;
+    width:26vw;
+    min-width: 290px;
+
+
+    background-color: paleturquoise;
+
+}
+
+#LocationRainfall{
+
+    height: 240px;
+    width:26vw;
+    min-width: 290px;
+
+
+    background-color: palegoldenrod;
+
+}
+
+#LocationAirQuality{
+    
+    height: 240px;
+    width:26vw;
+    min-width: 290px;
+
+
+
+    background-color: lightgray;
+
+}
+
+#NineDayForecast{
+   
+    background-color: lightsteelblue;
+}
+
+
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    width:100%;
+    font-size: 30px;
+    padding-left: 3px;
+    /*background-color: pink;*/
+ 
+
+}
+h3{
+  
+    font-size:20px;
+    margin-top: 0;
+    padding-left: 3px;
+
+   
+    
+
+}
+h4{
+    font-size: 15px;
+
+   
+
+    
+
+}
+p{
+   
+    font-size: 40px;
+    
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left:3px;
+
+
+
+    /*background-color: blue;*/
+
+
+   
+}
+
+#Warning p{
+    position: unset;
+    font-size: 15px;
+    width:40vw;
+    min-width:450px;
+}
+
+
+img{
+    max-width: 24pt;
+    max-height: 24pt;
+    /*background-color: yellow;*/
+  
+
+
+
+
+
+}
+#HKWeatherIcon img{
+    max-width:55pt;
+    max-height: 55pt;
+   
+
+
+
+}
+
+#NineDayForecast{
+    width:80vw;
+    min-width: 900px;
+
+
+    display:flex;
+    flex-direction: column;
+
+
+    
+
+}
+
+#Forecasts{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    overflow: auto;
+}
+
+.Days{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    margin-left:15px;
+    margin-right:15px;
+
+    min-width:100px;
+
+}
+#LastUpdate p{
+
+    font-size: 15px;;
+}
+
+#HKANDMyData{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#LocationData{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+select{
+    margin-left: 3px;
+}
+
+#Forecasts img{
+
+    margin-bottom: 15px;
+    margin-left: 25px;
+
+
+}
+
+#MyDataTemperature{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+    position: relative;
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+}
+
+#MyDataRainfall{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+    position: relative;
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+   
+}
+
+#MyDataRainfall img{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#MyDataAQHI{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    align-items: flex-start;
+    position: relative;
+    margin-left: 20px;
+
+    margin-right: 20px;
+
+}
+
+#MyData h3{
+    width: 100%;
+}
+
+#MyDataAQHI div{
+
+    
+   
+
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+#MyDataAQHI img{
+    max-width: 34pt;
+    max-height: 34pt;
+}
+
+#aqhiNum{
+   
+    font-size: 20px;
+
+ 
+}
+
+#aqhiWord{
+    
+    font-size: 20px;
+
+
+}
+
+
+/*Why it is not working??*/
+@media only screen and (max-width: 500px) {
+    
+    #HK{
+        width:95vw  !important;
+        min-width: 450px !important;
+
+        
+    }
+    #MyData{
+        width:95vw  !important;
+        min-width: 450px !important;
+    }
+    #LocationTemperature{
+        width:95vw  !important;
+        min-width: 450px !important;
+    }
+    #LocationRainfall{
+        width:95vw  !important;
+        min-width: 450px !important;
+    }
+    #LocationAirQuality{
+        width:95vw  !important;
+        min-width: 450px !important;
+    }
+    #NineDayForecast{
+        width:95vw  !important;
+        min-width: 450px !important;
+    }
+  
+   
+
+    body{
+        display:flex !important;
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        
+    }
+    #HKANDMyData{
+        display:flex !important;
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        
+    }
+    #LocationData{
+        display:flex !important;
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+
+    }
+
+    
+}
